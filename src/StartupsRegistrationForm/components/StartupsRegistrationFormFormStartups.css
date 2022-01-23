@@ -1,0 +1,254 @@
+.startupregistrationformform {
+  margin-top: 0px;
+  padding: 30px 0px 60px 0px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.startupregistrationformform > div > .startupregistrationformformlabel {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 33px;
+  margin: 40px 0 12px 0;
+  padding: 10px 0 10px 2px;
+}
+
+.startupregistrationformformname > .startupregistrationformformlabel,
+.startupregistrationformformbatch > .startupregistrationformformlabel,
+.startupregistrationformformcontactnumber > .startupregistrationformformlabel,
+.startupregistrationformformemail > .startupregistrationformformlabel {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 33px;
+  margin: 40px 0 12px 0;
+  padding: 10px 0 10px 2px;
+}
+.startupregistrationformformjoin-as {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0 30px 0;
+  justify-content: space-between;
+}
+
+.startupregistrationformformbutton {
+  margin: 6px 0px 15px 0;
+
+  height: 49px;
+  background: rgba(49, 154, 150, 0.3);
+  border: none;
+  box-sizing: border-box;
+  border-radius: 60px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  padding: 0 22px 0 22px;
+}
+
+.startupregistrationformformbutton1 {
+  margin-right: 50px;
+}
+
+.startupregistrationformforminput,
+.startupregistrationformformtextarea {
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+.startupregistrationformformtextarea {
+  padding-top: 10px;
+}
+
+.startupregistrationformformname > .startupregistrationformform {
+  height: 50px;
+  width: 902px;
+  margin: 10px 0 28px 0;
+}
+
+.startupregistrationformformbatch > .startupregistrationformform {
+  height: 50px;
+  width: 380px;
+  margin: 10px 0 28px 0;
+}
+
+.startupregistrationformformcontactnumber > .startupregistrationformform {
+  height: 50px;
+  width: 380px;
+  margin: 10px 0 28px 0;
+}
+
+.startupregistrationformformemail > .startupregistrationformform {
+  height: 50px;
+  width: 904px;
+  margin: 10px 0 28px 0;
+}
+
+.startupregistrationformformstartup-name > .startupregistrationformform {
+  width: 556px;
+  height: 73px;
+  margin: 10px 0 20px 0;
+}
+
+.startupregistrationformformnumber-of-founders > .startupregistrationformform {
+  width: 556px;
+  height: 73px;
+  margin: 10px 0 74px 0;
+}
+
+.startupregistrationformformis-registered {
+  margin: 0 0 58px 0;
+}
+
+.startupregistrationformformcurrent-stage,
+.startupregistrationformformmain-label {
+  margin: 0 0 49px 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.startupregistrationformformstartup-name,
+.startupregistrationformformnumber-of-founders,
+.startupregistrationformformis-registered
+  .startupregistrationformformmain-label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.startupregistrationformformis-registered
+  .startupregistrationformformmain-label {
+  padding-right: 35px;
+}
+
+.startupregistrationformformyes-no-label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  padding: 0 10px 0px 50px;
+}
+
+.startupregistrationformformis-registered > .startupregistrationformforminput {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  background-color: rgba(49, 154, 150, 1);
+  position: relative;
+  top: 3px;
+}
+
+.startupregistrationformformoptions {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 33px;
+  margin: 36px 0 36px 60px;
+  display: flex;
+}
+
+.startupregistrationformformoptions > .startupregistrationformforminput {
+  position: relative;
+  top: 5px;
+}
+
+.startupregistrationformformcurrent-stage {
+  width: 50%;
+}
+
+.startupregistrationformformbatch-contact,
+.startupregistrationformformstartup-details {
+  display: flex;
+}
+
+.startupregistrationformformcontactnumber {
+  margin-left: 470px;
+}
+
+.startupregistrationformformstartup-details-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  margin: 100px 0 15px 0;
+}
+
+.startupregistrationformformcurrent-stage input[type="radio"] {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  margin-left: auto;
+}
+
+.startupregistrationformformstartup-name > .startupregistrationformformlabel,
+.startupregistrationformformcurrent-stage
+  > .startupregistrationformformmain-label,
+.startupregistrationformformnumber-of-founders
+  > .startupregistrationformformlabel,
+.startupregistrationformformis-registered > .startupregistrationformformlabel,
+.startupregistrationformformquestions > .startupregistrationformformlabel {
+  /* background-color:rgba(49, 154, 150, 0.3);   */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 38px;
+}
+
+.startupregistrationformformnumber-of-founders {
+  margin-left: auto;
+}
+
+.startupregistrationformformquestions {
+  margin-top: 64px;
+}
+
+.startupregistrationformformquestions > .startupregistrationformformtextarea {
+  height: 117px;
+  width: 904px;
+  margin: 10px 0 0 0;
+}
+
+.startupregistrationformformsubmit-button {
+  display: flex;
+  justify-content: center;
+}
+
+.startupregistrationformformsubmit-button > .startupregistrationformformbutton {
+  background: rgba(49, 154, 150, 1);
+  width: 326px;
+  height: 82px;
+  margin-top: 65px;
+  align-self: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+  border: none;
+  color: #ffffff;
+  border-radius: 0%;
+}
+
+.startupregistrationformformbutton:hover {
+  cursor: pointer;
+}

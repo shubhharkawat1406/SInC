@@ -1,0 +1,59 @@
+.mentorsstartupsyoufollowheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: #1a1a1a;
+}
+
+.mentorsstartupsyoufollowheaderDashboard {
+  display: flex;
+  align-items: center;
+}
+.mentorsstartupsyoufollowheaderDashboard_dashboard {
+  text-align: top;
+}
+.mentorsstartupsyoufollowheaderLogo {
+  width: 40%;
+  align-items: center;
+}
+.mentorsstartupsyoufollowheaderCellName > span {
+  padding-bottom: 4px;
+}
+.mentorsstartupsyoufollowheaderCellName {
+  text-align: center;
+}
+.mentorsstartupsyoufollowheaderWork {
+  text-align: center;
+}
+.mentorsstartupsyoufollowheaderIcon {
+  color: yellow;
+  align-items: baseline;
+}
+.mentorsstartupsyoufollowheaderAvatar {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.mentorsstartupsyoufollowheaderPersonAvatar {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.mentorsstartupsyoufollowheaderCellName {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.mentorsstartupsyoufollowheaderCellName > img {
+  width: 20px;
+  height: 20px;
+}
+.mentorsstartupsyoufollowheaderCellName > h4 {
+  margin: auto;
+}

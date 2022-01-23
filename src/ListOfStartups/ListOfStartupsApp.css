@@ -1,0 +1,18 @@
+.listofstartupsApp__Body{
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.listofstartupsApp__SearchBar{
+  background-color: rgb(214,242,255);
+}
+.listofstartupsApp__Body{
+  background-color: rgb(214,242,255);
+}
+.listofstartupsApp__Content{
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  width: 90%;
+}

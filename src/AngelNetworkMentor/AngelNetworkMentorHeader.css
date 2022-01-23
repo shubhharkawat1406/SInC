@@ -1,0 +1,60 @@
+.angelnetworkmentorheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: #1a1a1a;
+  height: 113px;
+}
+
+.angelnetworkmentorheaderDashboard {
+  display: flex;
+  align-items: center;
+}
+.angelnetworkmentorheaderDashboard_dashboard {
+  text-align: top;
+}
+.angelnetworkmentorheaderLogo {
+  width: 40%;
+  align-items: center;
+}
+.angelnetworkmentorheaderCellName > span {
+  padding-bottom: 4px;
+}
+.angelnetworkmentorheaderCellName {
+  text-align: center;
+}
+.angelnetworkmentorheaderWork {
+  text-align: center;
+}
+.angelnetworkmentorheaderIcon {
+  color: yellow;
+  align-items: baseline;
+}
+.angelnetworkmentorheaderAvatar {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.angelnetworkmentorheaderPersonAvatar {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.angelnetworkmentorheaderCellName {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.angelnetworkmentorheaderCellName > img {
+  width: 20px;
+  height: 20px;
+}
+.angelnetworkmentorheaderCellName > h4 {
+  margin: auto;
+}

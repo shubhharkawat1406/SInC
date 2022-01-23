@@ -1,0 +1,16 @@
+.listofstartupscollapsible_sidebar_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listofstartupscollapsible_sidebar {
+  display: flex;
+  align-items: center;
+}
+.listofstartupscollapsible_sidebar_icons {
+  display: flex;
+  align-items: center;
+}
+.listofstartupscollapsible_sidebar_icons > icon {
+  flex: 1;
+}

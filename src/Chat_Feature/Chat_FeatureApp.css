@@ -1,0 +1,13 @@
+.chatapp {
+  background-color: #e5e5e5;
+  height: 100vh;
+  width: 100vw;
+}
+.chatapp__body {
+  background-color: #e5e5e5;
+  height: 100vh;
+  width: 100vw;
+}
+.chatapp__sidebar-chat {
+  display: flex;
+}

@@ -1,0 +1,60 @@
+.angelnetworkinvestorheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: #1a1a1a;
+  height: 113px;
+}
+
+.angelnetworkinvestorheaderDashboard {
+  display: flex;
+  align-items: center;
+}
+.angelnetworkinvestorheaderDashboard_dashboard {
+  text-align: top;
+}
+.angelnetworkinvestorheaderLogo {
+  width: 40%;
+  align-items: center;
+}
+.angelnetworkinvestorheaderCellName > span {
+  padding-bottom: 4px;
+}
+.angelnetworkinvestorheaderCellName {
+  text-align: center;
+}
+.angelnetworkinvestorheaderWork {
+  text-align: center;
+}
+.angelnetworkinvestorheaderIcon {
+  color: yellow;
+  align-items: baseline;
+}
+.angelnetworkinvestorheaderAvatar {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.angelnetworkinvestorheaderPersonAvatar {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.angelnetworkinvestorheaderCellName {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.angelnetworkinvestorheaderCellName > img {
+  width: 20px;
+  height: 20px;
+}
+.angelnetworkinvestorheaderCellName > h4 {
+  margin: auto;
+}

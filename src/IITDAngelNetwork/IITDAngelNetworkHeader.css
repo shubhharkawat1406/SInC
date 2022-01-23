@@ -1,0 +1,60 @@
+.iitdangelnetworkheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+  background-color: #1a1a1a;
+  height: 113px;
+}
+
+.iitdangelnetworkheaderDashboard {
+  display: flex;
+  align-items: center;
+}
+.iitdangelnetworkheaderDashboard_dashboard {
+  text-align: top;
+}
+.iitdangelnetworkheaderLogo {
+  width: 40%;
+  align-items: center;
+}
+.iitdangelnetworkheaderCellName > span {
+  padding-bottom: 4px;
+}
+.iitdangelnetworkheaderCellName {
+  text-align: center;
+}
+.iitdangelnetworkheaderWork {
+  text-align: center;
+}
+.iitdangelnetworkheaderIcon {
+  color: yellow;
+  align-items: baseline;
+}
+.iitdangelnetworkheaderAvatar {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.iitdangelnetworkheaderPersonAvatar {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.iitdangelnetworkheaderCellName {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.iitdangelnetworkheaderCellName > img {
+  width: 20px;
+  height: 20px;
+}
+.iitdangelnetworkheaderCellName > h4 {
+  margin: auto;
+}

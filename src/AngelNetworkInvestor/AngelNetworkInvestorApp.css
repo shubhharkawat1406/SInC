@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.angelnetworkinvestorbuttons {
+  height: 110px;
+  /* background-color: palevioletred; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.angelnetworkinvestorbuttons > .angelnetworkinvestorbutton1 {
+  flex: 1;
+}
+
+.angelnetworkinvestorbuttons > .angelnetworkinvestorbutton2 {
+  flex: 1;
+}
+
+.angelnetworkinvestorbuttons > .angelnetworkinvestorbutton3 {
+  flex: 1;
+}
+
+.angelnetworkinvestorbuttons > .angelnetworkinvestorbutton3 {
+  margin-right: 20px;
+}
+
+.angelnetworkinvestorbuttons div {
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: -33px;
+}
+
+.angelnetworkinvestorbuttons div button {
+  border: none;
+  background-color: transparent;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.angelnetworkinvestorunderline {
+  position: relative;
+  top: -8px;
+  padding: 0 5% 0 5%;
+}
+
+.angelnetworkinvestorunderline > .angelnetworkinvestorthin {
+  border-top: 2px solid #000000;
+  position: relative;
+  top: -8px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
+}
+
+.angelnetworkinvestorunderline > .angelnetworkinvestorbold {
+  height: 8px;
+  position: relative;
+  width: 28%;
+  background: #000000;
+  border-radius: 18px;
+
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.angelnetworkinvestorcontainer {
+  background: rgba(218, 218, 218, 0.58);
+  margin: 75px 40px 0 40px;
+  padding: 35px;
+}
+
+.angelnetworkinvestorsection {
+  display: flex;
+  padding: 10px;
+  /* align-items: center; */
+}
+
+.angelnetworkinvestortext {
+  padding: 30px;
+}
+
+.angelnetworkinvestorbox {
+  border: 3px solid #037272;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+#angelnetworkinvestorsection2,
+#angelnetworkinvestorsection4 {
+  flex-direction: row-reverse;
+}
+
+#angelnetworkinvestorimage4 img {
+  padding-left: 60px;
+}
+
+#angelnetworkinvestorsection2 img,
+#angelnetworkinvestorsection4 img {
+  padding-right: 50px;
+}
+
+#angelnetworkinvestorsection1 img {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#angelnetworkinvestorsection3 img {
+  padding-left: 50px;
+}
+
+#angelnetworkinvestorsection2 img {
+  position: relative;
+  top: 52px;
+  left: 40px;
+}
+
+#angelnetworkinvestorsection1 {
+  align-items: center;
+}
+
+#angelnetworkinvestorsection2 {
+  align-items: top;
+  padding: 0;
+}
+
+#angelnetworkinvestorsection3 {
+  padding: 0 10px 0 10px;
+}
+
+#angelnetworkinvestorsection4 {
+  padding: 0 10px 0 10px;
+  position: relative;
+  top: -103.5px;
+}

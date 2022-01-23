@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.angelnetworknmbuttons {
+  height: 110px;
+  /* background-color: palevioletred; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.angelnetworknmbuttons > .angelnetworknmbutton1 {
+  flex: 1;
+}
+
+.angelnetworknmbuttons > .angelnetworknmbutton2 {
+  flex: 1;
+}
+
+.angelnetworknmbuttons > .angelnetworknmbutton3 {
+  flex: 1;
+}
+
+.angelnetworknmbuttons > .angelnetworknmbutton3 {
+  margin-right: 20px;
+}
+
+.angelnetworknmbuttons div {
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: -33px;
+}
+
+.angelnetworknmbuttons div button {
+  border: none;
+  background-color: transparent;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.angelnetworknmunderline {
+  position: relative;
+  top: -8px;
+  padding: 0 5% 0 5%;
+}
+
+.angelnetworknmunderline > .angelnetworknmthin {
+  /* flex: 2; */
+  border-top: 2px solid #000000;
+  position: relative;
+  top: -8px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
+}
+
+.angelnetworknmunderline > .angelnetworknmbold {
+  height: 8px;
+  position: relative;
+  left: 72%;
+  align-self: flex-end;
+  width: 27%;
+  background: #000000;
+  border-radius: 18px;
+}
+
+.angelnetworknmcontainer {
+  background: rgba(218, 218, 218, 0.58);
+  margin: 75px 40px 0 40px;
+  padding: 35px;
+}
+
+.angelnetworknmsection {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.angelnetworknmtext {
+  padding: 30px;
+}
+
+.angelnetworknmheading {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(3, 114, 114, 1);
+  padding: 0 0 25px 0;
+}
+
+.angelnetworknmbox {
+  border: 3px solid #037272;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 25px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+#angelnetworknmsection2,
+#angelnetworknmsection4 {
+  flex-direction: row-reverse;
+}
+
+.angelnetworknmimage {
+  padding: 30px;
+  align-self: top;
+}
+
+#angelnetworknmimage4 img {
+  width: 400px;
+}
+
+#angelnetworknmsection2 img,
+#angelnetworknmsection4 img {
+  padding-right: 50px;
+}
+
+#angelnetworknmsection1 img,
+#angelnetworknmsection3 img,
+#angelnetworknmsection5 img {
+  padding-left: 50px;
+}

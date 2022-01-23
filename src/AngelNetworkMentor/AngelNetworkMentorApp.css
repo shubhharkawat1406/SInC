@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.angelnetworkmentorbuttons {
+  height: 110px;
+  /* background-color: palevioletred; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.angelnetworkmentorbuttons > .angelnetworkmentorbutton1 {
+  flex: 1;
+}
+
+.angelnetworkmentorbuttons > .angelnetworkmentorbutton2 {
+  flex: 1;
+}
+
+.angelnetworkmentorbuttons > .angelnetworkmentorbutton3 {
+  flex: 1;
+}
+
+.angelnetworkmentorbuttons > .angelnetworkmentorbutton3 {
+  margin-right: 20px;
+}
+
+.angelnetworkmentorbuttons div {
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: -33px;
+}
+
+.angelnetworkmentorbuttons div button {
+  border: none;
+  background-color: transparent;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.angelnetworkmentorunderline {
+  position: relative;
+  top: -8px;
+  padding: 0 5% 0 5%;
+}
+
+.angelnetworkmentorunderline > .angelnetworkmentorthin {
+  border-top: 2px solid #000000;
+  position: relative;
+  top: -8px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
+}
+
+.angelnetworkmentorunderline > .angelnetworkmentorbold {
+  height: 8px;
+  position: relative;
+  left: 10px;
+  width: 27%;
+  background: #000000;
+  border-radius: 18px;
+}
+
+.angelnetworkmentorcontainer {
+  background: rgba(218, 218, 218, 0.58);
+  margin: 75px 40px 0 40px;
+  padding: 35px 45px;
+}
+
+.angelnetworkmentorsection {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.angelnetworkmentortext {
+  padding: 30px;
+}
+
+.angelnetworkmentorheading {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(3, 114, 114, 1);
+  padding: 0 0 25px 0;
+}
+
+.angelnetworkmentorbox {
+  border: 3px solid #037272;
+  box-sizing: border-box;
+  border-radius: 30px;
+  padding: 45px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+#angelnetworkmentorsection2,
+#angelnetworkmentorsection4 {
+  flex-direction: row-reverse;
+}
+
+.angelnetworkmentorimage {
+  padding: 30px;
+  align-self: top;
+}
+
+#angelnetworkmentorimage4 img {
+  width: 400px;
+}
+
+#angelnetworkmentorsection1 img,
+#angelnetworkmentorsection3 img {
+  padding-left: 50px;
+}
+
+#angelnetworkmentorsection2 img {
+  margin-right: 50px;
+}

@@ -1,0 +1,65 @@
+.mentorregistrationformform {
+  width: 445px;
+  position: relative;
+  left: 540px;
+  font-family: sans-serif;
+  /* top: -345px; */
+}
+
+.mentorregistrationformformemail,
+.mentorregistrationformformusername,
+.mentorregistrationformformphone,
+.mentorregistrationformformpassword,
+.mentorregistrationformformsubmit-button {
+  margin-top: 21px;
+}
+
+.mentorregistrationformformlabel {
+  /* font-family: Helvetica Rounded; */
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.mentorregistrationformforminpu {
+  height: 61.23px;
+  width: 430px;
+  left: 540.15px;
+  background: #ffffff;
+  border-radius: 13.916px;
+  border: none;
+  margin-top: 5px;
+
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.mentorregistrationformformsubmit-button {
+  display: flex;
+  justify-content: center;
+}
+
+.mentorregistrationformformsubmit-button > button {
+  width: 290px;
+  height: 55px;
+  background: #ffffff;
+  border-radius: 18.5546px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #000000;
+  border: none;
+  margin-top: 18px;
+}
+
+.mentorregistrationformform:hover {
+  cursor: pointer;
+}

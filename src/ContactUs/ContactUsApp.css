@@ -1,0 +1,126 @@
+
+.contactusApp {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+
+  background-image: url("./images/backgroundphone.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% ;
+  /* z-index: 5; */
+  background-position: 0 -10px;
+}
+
+.contact-us-box {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.contact-us-heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+
+  height: 24px;
+  width: 242px;
+  height: 58px;
+
+  position: relative;
+  left: 139px;
+  top: 53px;
+
+  background: #fecb2f;
+  border-radius: 20px 20px 0px 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-us-box {
+  box-sizing: border-box;
+  width: 70%;
+  height: 589px;
+  z-index: 1;
+
+  position: relative;
+  left: 56px;
+  top: 23px;
+
+  background: #ffe597;
+  opacity: 0.8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+
+  padding: 44px;
+}
+
+.contactuscontent-left {
+  flex: 1;
+}
+
+.contactusleft-heading {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+.contactusleft-body {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #00848c;
+  margin-bottom: 40px;
+  padding-right: 30px;
+}
+
+.contactussocial-media {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactussocial-media > a > img {
+  padding: 0 20px 0 20px;
+}
+
+.contactusright-box {
+  flex: 1;
+  width: 50%;
+  z-index: 100;
+
+  box-sizing: border-box;
+  width: 457px;
+  left: 508px;
+  top: 250px;
+
+  background: #fecb2f;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  padding: 40px 26px;
+}
+
+.contactusget-in-touch {
+  z-index: 10;
+  /* visibility: ; */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contactussocialtree {
+  position: relative;
+  top: -18px;
+}

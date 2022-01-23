@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+.entrepreneurshipkickstartApp{
+  margin: 0;
+  padding: 0;
+}
+
+.entrepreneurshipkickstartsection1 {
+  text-align: center;
+}
+
+.entrepreneurshipkickstart_header {
+  height: calc(471 / 2638 * 100vh);
+  width: 100vw;
+  background-color: #000000;
+  display: flex;
+}
+
+.entrepreneurshipkickstartsection1-heading {
+  font-family: "Heebo", sans-serif;
+  margin: 32px 0 18px 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 57px;
+  text-align: center;
+}
+
+.entrepreneurshipkickstartyellow-underline {
+  height: 3px;
+  background-color: #fecb2f;
+  margin: 0 13% 0 13%;
+}
+
+.entrepreneurshipkickstartsection1-text {
+  margin: 21px 0 69px 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+.ek-section2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.ek-sec2{
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  /* padding: 2%; */
+}
+
+.ek-sec2-box{
+  width: 16%;
+}
+
+.yb1, .yb2{
+  width: 100%;
+}
+
+.ek-sec2-box-half1, .ek-sec2-box-half2{
+  height: 142px;
+}
+
+.ek-sec2-img2{
+  padding: 5px;
+}
+
+.ek-sec2-img2, .ek-sec2-img4, .ek-sec2-img6{
+  padding: 15px;
+}
+
+.ek-sec2-img1, .ek-sec2-img3{
+  position: relative;
+  top: 25px;
+}
+
+.ek-sec2-img5{
+  position: relative;
+  top: 40px;
+}
+
+
+
+.ek-sec2-top{
+  display: flex;
+  width: 100%;
+  padding: 18px 0;
+}
+
+.ek-sec2-top-heading{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.ek-sec2-top-desc{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.ek-sec2-top-content1{
+  position: relative;
+  left: 14%;
+  width: 22%;
+}
+
+.ek-sec2-top-content2{
+  position: relative;
+  left: 25%;
+  width: 22%;
+}
+
+.ek-sec2-top-content3{
+  position: relative;
+  left: 33%;
+  width: 22%;
+}
+
+ 
+.ek-sec2-bottom{
+  display: flex;
+  width: 100%;
+  padding: 18px 0;
+ }
+  
+ .ek-sec2-bottom-heading{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  padding: 12px 0;
+ }
+  
+ .ek-sec2-bottom-desc{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+ }
+  
+ .ek-sec2-bottom-content1{
+  position: relative;
+  left: 0;
+  width: 22%;
+ }
+  
+ .ek-sec2-bottom-content2{
+  position: relative;
+  left: 9%;
+  width: 22%;
+ }
+  
+ .ek-sec2-bottom-content3{
+  position: relative;
+  left: 19%;
+  width: 22%;
+}
+ 
+
+
+.entrepreneurshipkickstartsection3 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  margin-top: 100px;
+}
+
+.entrepreneurshipkickstartsection3-box {
+  margin-left: 165px;
+  width: 800px;
+  border: 4px solid #fecb2f;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 20px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.02em;
+
+  padding: 60px 20px;
+  color: #000000;
+}
+
+.entrepreneurshipkickstartsection3-img {
+  padding: 0 120px 0 120px;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
+
+.entrepreneurshipkickstartsection4 {
+  padding: 60px 180px;
+  margin: 30px 160px -40px 10px;
+  display: flex;
+}
+
+.entrepreneurshipkickstartleft-text {
+  /* font-family: Helvetica Compressed; */
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 118px;
+  letter-spacing: 0.02em;
+  color: #fecb2f;
+  width: 80%;
+
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.entrepreneurshipkickstartsection4 > .entrepreneurshipkickstartright {
+  width: 211.42px;
+  height: 250px;
+  background: #c4c4c4;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.entrepreneurshipkickstart-green-line2{
+  width: 50.58px;
+  position: relative;
+  left: 120px;
+  top: -8px;
+  border: 2px solid #00848C;
+}
+
+.entrepreneurshipkickstartright-text {
+  /* font-family: Helvetica Compressed; */
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #fecb2f;
+
+  /* need to modify this line to give a crisp border to the text */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 1);
+
+  position: relative;
+  top: -32px;
+}
+
+.entrepreneurshipkickstartsection5 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  left: -50px;
+}
+
+.entrepreneurshipkickstartsection6{
+  display: flex;
+}
+
+.entrepreneurshipkickstartsection6-heading, .entrepreneurshipkickstartsection7-heading {
+  font-family: "Heebo", sans-serif;
+  margin-top: 120px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.entrepreneurshipkickstartyellow-line {
+  height: 3px;
+  background: #fecb2f;
+  margin: 3px 500px;
+}
+/* 
+.box{
+  width: 974.14px;
+  height: 214px;
+  background: rgba(254, 203, 47, 1);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+} */
+
+.entrepreneurshipkickstartsection6-box {
+  width: 974.14px;
+  height: 214px;
+  margin-left: auto;
+
+  background: #fecb2f;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 30px 40px 15px 40px;
+  display: flex;
+  margin: 50px 330px;
+}
+
+.entrepreneurshipkickstartbox-left > .entrepreneurshipkickstartleft-heading {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  padding-bottom: 10px;
+}
+
+.entrepreneurshipkickstartbox-left-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #666557;
+}
+
+.entrepreneurshipkickstartbox-right {
+  padding: 40px 0 0 90px;
+}
+
+.entrepreneurshipkickstartbutton1 {
+  width: 169.94px;
+  height: 40px;
+  background: #666557;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.entrepreneurshipkickstartbutton2 {
+  width: 169.94px;
+  height: 40px;
+
+  background: #b2afac;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+
+  margin-top: 15px;
+}
+
+
+.entrepreneurshipkickstartsection7-content{
+  margin: 30px 120px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.entrepreneurshipkickstartsection7-box{
+  width: 389px;
+  height: 257px;
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin: 20px 50px;
+}
+
+.entrepreneurshipkickstartdpdiv{
+  width: 200px;
+  height: 200px;
+  /* background: url('./images/curve.png'); */
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  margin: 54px 0 0 22px;
+  padding: 0px;
+  background: url("./images/yellow-quarter-circle.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 18px 48px;
+  /* border-bottom-right-radius: 10px solid yellow; */
+  /* border: 10px solid yellow; */
+}
+
+.entrepreneurshipkickstartdp{
+  width: 152px;
+  height: 152px;
+}
+
+.entrepreneurshipkickstartdetails-heading{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+
+  color: #FECB2F;
+
+  position: relative;
+  top: -155px;
+  left: 225px;
+}
+
+.entrepreneurshipkickstartdetails-desc{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 27px;
+  
+  color: #FFDE7B;
+
+  position: relative;
+  top: -152px;
+  left: 208px;
+}
+
+.entrepreneurshipkickstart_footer {
+  margin-top: 30px;
+  height: calc(289 / 2638 * 100vh);
+  width: 100vw;
+  background-color: #000000;
+  display: flex;
+}
+
+.entrepreneurshipkickstartbutton1,.entrepreneurshipkickstartbutton2:hover{
+  cursor: pointer;
+}
+
+.entrepreneurshipkickstart-62{
+  align-content: right;
+}
+
+.entrepreneurshipkickstart-621{
+  position: relative;
+  top: 130px;
+  left: 5px;
+}
+
+.entrepreneurshipkickstart-622{
+  position: relative;
+  top: 127px;
+  left: 92px;
+}
+
+.entrepreneurshipkickstart-623{
+  position: relative;
+  top: 95px;
+  right: 320px;
+}

@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.registrationformform{
+    margin-top: 130px;
+    padding: 50px 170px 60px 170px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.registrationformformlabel {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 35px;
+    margin: 40px 0 12px 0;
+    /* background-color: slateblue; */
+    padding: 10px 0 10px 2px;
+}
+
+.registrationformformchoose-your-roles-buttons{
+    width: 1324px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0 40px 0;
+}
+
+.registrationformformchoose-your-roles-buttons > .registrationformformbutton{
+    margin: 15px 0;
+}
+
+.registrationformformchoose-your-roles-buttons > .registrationformformbutton > .registrationformformbuttonbutton{
+    height: 49px;
+    background: rgba(49, 154, 150, 0.3);
+    border: none;
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    
+    padding: 0 22px 0 22px;
+}
+
+
+#registrationformformbutton-1 > .registrationformformbuttonbutton{
+    padding: 0 30px;
+}
+#registrationformformbutton-2 > .registrationformformbuttonbutton{
+    padding: 0 30px;
+}
+#registrationformformbutton-3 > .registrationformformbuttonbutton{
+    padding: 0 30px;
+}
+
+#registrationformformbutton-1, #registrationformformbutton-4{
+    margin-right: auto;
+}
+
+#registrationformformbutton-3, #registrationformformbutton-5{
+    margin-left: auto;
+}
+
+#registrationformformbutton-1:hover{
+    height: 49px;
+    background: rgba(49, 154, 150, 1);
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding: 0;
+    border: 2px solid black;
+}
+
+#registrationformformbutton-2:hover{
+    height: 49px;
+    background: rgba(49, 154, 150, 1);
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding: 0;
+    border: 2px solid black;
+}
+
+#registrationformformbutton-3:hover{
+    height: 49px;
+    background: rgba(49, 154, 150, 1);
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding: 0;
+    border: 2px solid black;
+}
+
+#registrationformformbutton-4:hover{
+    height: 49px;
+    background: rgba(49, 154, 150, 1);
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding: 0;
+    border: 2px solid black;
+}
+
+#registrationformformbutton-5:hover{
+    height: 49px;
+    background: rgba(49, 154, 150, 1);
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding: 0;
+    border: 2px solid black;
+}
+
+.registrationformformtextarea{
+    margin-top: 12px;
+    margin-bottom: 500px;
+}
+
+.registrationformformname > .registrationformforminput{
+    height:50px;
+    width: 902px;
+    margin: 10px 0 28px 0;
+}
+
+.registrationformformbatch > .registrationformforminput{
+    height:50px;
+    width: 380px;
+    margin: 10px 0 28px 0;
+}
+
+.registrationformformhostel > .registrationformforminput{
+    height:50px;
+    width: 380px;
+    margin: 10px 0 28px 0;
+}
+
+.registrationformformprofile > .registrationformforminput{
+    height:50px;
+    width: 904px;
+    margin: 10px 0 28px 0;
+}
+
+.registrationformformconnect{
+    width: 904px;
+}
+
+.registrationformformconnect > .registrationformformtextarea{
+    height:204px;
+    width: 904px;
+    margin: 10px 0 28px 0;
+}
+
+.registrationformformdomain > .registrationformformtextarea{
+    height:117px;
+    width: 904px;
+    margin: 10px 0 28px 0;
+}
+
+.registrationformformquestions > .registrationformformtextarea{
+    height:117px;
+    width: 904px;
+    margin: 10px 0 0 0;
+}
+
+.registrationformformsubmit-button{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.registrationformformsubmit-button > .registrationformformbuttonbutton{
+    background: rgba(49, 154, 150, 1);
+    width: 326px;
+    height: 82px;
+    margin-top: 44px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.registrationformformbuttonbutton:hover{
+    cursor: pointer;
+    color: white;
+
+    /* Why are these 2 lines not working? */
+    /* border: 5px solid black; */
+    /* background-color: rgba(49, 154, 150, 1); */
+}
+
+.registrationformforminput, .registrationformformtextarea{
+    font-size: 25px;
+    padding: 0 20px;
+    color: rgb(0,0,0,0.8);
+}
+
+.registrationformformtextarea{
+    padding: 10px 20px;
+}
+
+.registrationformformdetails{
+    width: 1150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.registrationformformhostel{
+    margin-left: auto;
+}
+
+
+/* #true{
+    color: white;
+    height: 49px;
+    background: rgba(49, 154, 150, 1);
+    box-sizing: border-box;
+    border-radius: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+     padding: 0; 
+     border: 2px solid black;
+} */ 
+
